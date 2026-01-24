@@ -1,0 +1,5 @@
+File Reader with Error Handling
+
+This program is designed to open and read a text file named sample.txt. I used the with open() statement to ensure the file closes automatically after reading. Inside the block, a loop iterates through the file and prints it line by line.
+
+I also added a try-except block to handle errors. If sample.txt is missing, the program catches the FileNotFoundError and prints a friendly error message instead of crashing.
